@@ -1,9 +1,7 @@
-module github.com/centrifuge/chainbridge-substrate-events
-
+module github.com/uinb/chainbridge-substrate-events
 go 1.17
 
-require github.com/centrifuge/go-substrate-rpc-client/v4 v4.0.0
-
+require github.com/uinb/go-substrate-rpc-client/v4 v4.1.0-fusotao
 require (
 	github.com/ChainSafe/go-schnorrkel v0.0.0-20210318173838-ccb5cd955283 // indirect
 	github.com/cosmos/go-bip39 v1.0.0 // indirect
